@@ -1,0 +1,15 @@
+{
+  "name": "my-chrome-extension",
+  "version": "1.0.0",
+  "description": "A simple Chrome extension to display input data.",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0",
+    "@types/chrome": "^0.0.143"
+  },
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+}
