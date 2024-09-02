@@ -1,6 +1,6 @@
+/// <reference types="chrome"/>
+
 chrome.action.onClicked.addListener(() => {
-    chrome.tabs.create({
-      url: chrome.runtime.getURL('dist/newtab.html')
-    });
-  });
-  
+    const newTabUrl = chrome.runtime.getURL('newtab.html');
+    chrome.tabs.create({ url: newTabUrl });
+});
